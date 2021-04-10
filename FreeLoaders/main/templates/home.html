@@ -34,15 +34,64 @@
           </div>     
         -->   
         <div class="column">
-            <iframe src="https://www.youtube.com/embed/hJbRpHZr_d0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-            <iframe src="https://www.youtube.com/embed/IAODG6KaNBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/M3VfUmO8ehw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 id="typedtext">You can do it day by day!</h1>
+             <script>
+       document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+var quotes=["The advice I’d give to somebody that’s silently struggling is, you don’t have to live that way. You don’t have to struggle in silence. You can be un-silent. You can live well with a mental health condition, as long as you open up to somebody about it, because it’s really important you share your experience with people so that you can get the help that you need.” — Demi Lovato",
+"I found that with depression, one of the most important things you can realize is that you’re not alone. You’re not the first to go through it, you’re not gonna be the last to go through it,” — Dwayne “The Rock” Johnson","I understand your pain. Trust me, I do. I’ve seen people go from the darkest moments in their lives to living a happy, fulfilling life. You can do it too. I believe in you. You are not a burden. You will NEVER BE a burden. — Sophie Turner",
+ "The experience I have had is that once you start talking about [experiencing a mental health struggle], you realize that actually you’re part of quite a big club.” — Prince Harry",
+ "Anything that’s human is mentionable, and anything that is mentionable can be more manageable. When we can talk about our feelings, they become less overwhelming, less upsetting, and less scary.” — Fred Rogers",
+ "There is hope, even when your brain tells you there isn’t.” ― John Green",
+"You look at me and cry; everything hurts. I hold you and whisper: but everything can heal. ― Rupi Kaur",
+"The humanity we all share is more important than the mental illnesses we may not” ― Elyn R. Saks",
+"Life doesn’t make any sense without interdependence. We need each other, and the sooner we learn that, the better for us all.  — Erik Erikson",
+"Mental health problems don’t define who you are. They are something you experience. You walk in the rain and you feel the rain, but, importantly, YOU ARE NOT THE RAIN. — Matt Haig",
+"Happiness can be found even in the darkest of times, if one only remembers to turn on the light. — Albus Dumbledore from Harry Potter and the Prisoner of Azkaban",
+"Be patient and tough; some day this pain will be useful to you.” — Ovid",
+            "There is a crack in everything, that’s how the light gets in ― Leonard Cohen"
+            ,"Increasing the strength of our minds is the only way to reduce the difficulty of life. ― Mokokoma Mokhonoana",
+            "Not until we are lost do we begin to understand ourselves” ― Henry David Thoreau"
+,"I am not afraid of storms for I am learning how to sail my ship. — Amy March, from Little Women",
+            "Sometimes you climb out of bed in the morning and you think, I’m not going to make it, but you laugh inside — remembering all the times you’ve felt that way. — Charles Bukowski",
+"Promise me you’ll always remember — you’re braver than you believe, and stronger than you seem, and smarter than you think. — Christopher Robin from Winnie the Pooh","In the middle of winter I at last discovered that there was in me an invincible summer. — Albert Camus",
+            "If you’re going through hell, keep going.— Winston Churchill",
+"If you have been brutally broken but still have the courage to be gentle to other living beings, then you’re a badass with a heart of an angel.— Keanu Reeves"];
+  function typeWriter(text, i, fnCallback) {
+    if (i < (text.length)) {
+     document.getElementById("typedtext").innerHTML = text.substring(0, i+1);
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 80);
+      
+    }
+    else if (typeof fnCallback == 'function') {
+      setTimeout(fnCallback, 5000);
+    }
+  }
+    function shuffle(quotes) {
+  quotes.sort(() => Math.random() - 0.5);
+}
+   function StartTextAnimation() {
+   shuffle(quotes);
+     if (typeof quotes[0] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation();
+        }, 20000);
+     }
+      typeWriter(quotes[0], 0, function(){
+       StartTextAnimation();
+     });
+  }
+  // start the text animation
+  StartTextAnimation();
+  
+});         </script>
         </div>
-       
         </div>
-        <div >
+        <div>
             <div id="anime" >
-                
+
             </div>
             Made by- FreeLoaders
         </div>
