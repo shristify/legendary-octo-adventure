@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+<nav class="nav1" id="box">
+    <ul >
+      <li>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+               Click me</a>
+              
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href ="{%url 'sendsms' %}">Friends</a>
+            <a class="dropdown-item" href ="{%url 'maps'%}">Doctors Near Me</a>
+            <a class="dropdown-item" href ="http://www.aasra.info/helpline.html">Helpline</a>
+          </div>
+          </li>
+        </ul> 
+        </li>
+        <li><a href="{%url 'quiz'%}">How are you feeling?</a></li>
+       
+       <li><a href="{%url 'you'%}">FOR YOU!</a></li>
+      </ul>
+  </nav>
+          <div class="columns" >
+        <div class="column"> 
+   <iframe name="chat"  id="box2" style="min-height:500px;" src="http://stark-dawn-69941.herokuapp.com" style="border:none"></iframe>
+        </div>
+     <!--  <div class="column is-desktop">
+ <iframe name="chat" height="400" src="http://vax.herokuapp.com/game" style="border:none"></iframe>
+          </div>     
+        -->   
+        <div class="column">
+            <iframe src="https://www.youtube.com/embed/hJbRpHZr_d0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/IAODG6KaNBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/M3VfUmO8ehw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+       
+        </div>
+        <div >
+            <div id="anime" >
+                
+            </div>
+            Made by- FreeLoaders
+        </div>
+        
+      
+
+{% else %}  
+         
+<h1>
+hekgsd
+</h1>
+
+{% endif %}
+
+
+
+{% endblock %}
