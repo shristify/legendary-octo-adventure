@@ -20,7 +20,7 @@ We are going to develop a chatbot based web app which would help people to recov
   <a href="https://youtu.be/EK4BmV8YpTE">https://youtu.be/EK4BmV8YpTE</a>
   
 ## Presentation Link:
-  <a href="#"> https://youtu.be/EK4BmV8YpTE </a>
+  <a href="https://docs.google.com/presentation/d/1glwdgtjq5XspIvoqiMG9EY15RAgeVWTlwQYDTMkSBMY/edit?usp=sharing"> https://youtu.be/EK4BmV8YpTE </a>
   
   
 ## Table of Contents:
