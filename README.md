@@ -18,21 +18,21 @@
 ## Table of Contents:
 
 ## Technology Stack:
-  1) Node.JS
-  2) Google Collab
-  3) Javafx
-  4) Machine Learning
+  1) Django 
+  2) Node js for chatbot
+  3) Google cloud
+  4) Dialogflow
+  
   
 
 ## Contributors:
 
-Team Name: OP Squad
+Team Name: FreeLoaders
 
-* [Anuj Modi](https://github.com/descifrado)
-* [Arsh Singh](https://github.com/iosdev474)
-* [Shashwat Pandey](https://github.com/shashwat1998)
-* [Manas Uniyal](https://github.com/ManasUniyal)
-
+* [Prajjwal Sharma](https://github.com/prajjwal-24)
+* [Shristi Singh](https://github.com/confusedcoder1)
+* [Vijeta Yadav](https://github.com/vijeta99)
+* [Vineeta Singh](https://github.com/vineeta23)
 
 ### Made at:
 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
