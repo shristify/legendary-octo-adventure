@@ -44,7 +44,7 @@ Team Name: FreeLoaders
 
 * [Prajjwal Sharma](https://github.com/prajjwal-24)
 * [Shristi Singh](https://github.com/confusedcoder1)
-* [Vijeta Yadav](https://github.com/vijeta99)
+* [Vijeta Singh Yadav](https://github.com/vijeta99)
 * [Vineeta Singh](https://github.com/vineeta23)
 
 ### Made at:
